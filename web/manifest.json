@@ -1,6 +1,6 @@
 {
-    "name": "flutter_web_demo",
-    "short_name": "flutter_web_demo",
+    "name": "dummy_app",
+    "short_name": "dummy_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

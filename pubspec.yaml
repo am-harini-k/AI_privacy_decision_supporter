@@ -1,17 +1,18 @@
-name: flutter_web_demo
-description: "Privacy AI Demo App"
+name: dummy_app
+description: "A new Flutter project."
 publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.10.4
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_local_notifications: ^17.0.0
+  http: ^1.2.0   # ✅ keep only ONE http version
+  flutter_local_notifications: ^17.2.0
 
 dev_dependencies:
   flutter_test:
@@ -20,5 +21,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/logo.png   # <- Add this line for your local logo
